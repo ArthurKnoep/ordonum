@@ -1,0 +1,5 @@
+Options +FollowSymlinks
+RewriteEngine On
+RewriteRule	^ordonance$	ordonanceView.php	[L]
+RewriteRule	^new-ordo$	/medecin/ordonance.php	[L]
+RewriteRule	^ordo-menu$	/medecin/ordoMenu.php	[L]

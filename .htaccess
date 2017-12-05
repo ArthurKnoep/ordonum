@@ -1,0 +1,11 @@
+Options +FollowSymlinks
+RewriteEngine On
+RewriteRule	^messagerie$	messagerie.php	[L]
+RewriteRule	^medicament$	medicament.php	[L]
+RewriteRule	^dossier$	dossier.php	[L]
+RewriteRule	^traitement$	traitement.php	[L]
+RewriteRule	^ordonnance$	ordonnance.php	[L]
+RewriteRule	^ordonnance/$	ordonnance.php	[L]
+RewriteRule ^show-ordo-([a-zA-Z0-9]+)$  pharmacien/showOrdonance.php?id=$1 [L]
+RewriteRule ^valid-ordo-([a-zA-Z0-9]+)$  pharmacien/validOrdo.php?id=$1 [L]
+RewriteRule ^new-message-([a-zA-Z0-9]+)$  message/newConv.php?id=$1 [L]

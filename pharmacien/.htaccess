@@ -1,0 +1,4 @@
+Options +FollowSymlinks
+RewriteEngine On
+RewriteRule	^success$	success.php	[L]
+RewriteRule	^ordonance$	ordonanceView.php	[L]

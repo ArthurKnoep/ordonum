@@ -1,0 +1,6 @@
+Options +FollowSymlinks
+RewriteEngine On
+RewriteRule	^$	login.php	[L]
+RewriteRule	^logout$	logout.php	[L]
+RewriteRule	^success$	success.php	[L]
+RewriteRule	^failed$	failed.php	[L]
